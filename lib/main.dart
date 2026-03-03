@@ -33,4 +33,8 @@ class MyApp extends StatelessWidget {
       home: const Scaffold(),
     );
   }
+
+  void greet() {
+    print("Hello, World!");
+  }
 }
